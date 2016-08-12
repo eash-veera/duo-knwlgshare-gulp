@@ -27,3 +27,25 @@ LevelUpTuts has a great [playlist](https://www.youtube.com/watch?v=wNlEK8qrb0M&l
 ### Online Aticles
 
 Sitepoint has done a great article aptly titled [An Introduction to Gulp.js](https://www.sitepoint.com/introduction-gulp-js/) and comparison between gulp and grunt.
+
+### Fireup the sample project
+
+After cloning the project to your computer run the following command in your terminal to install all required node and bower packages.
+
+	Run `npm install` and `bower install`	
+		
+## Start
+
+	`gulp`
+
+## Build
+
+Create a deployment build with the following commands:
+
+	`gulp build`
+
+## Test App Build
+
+To fire up a server and test the final build:
+
+	`gulp build:serve`
